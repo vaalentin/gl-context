@@ -1,0 +1,21 @@
+{
+  "name": "gl-context",
+  "version": "1.0.0",
+  "description": "Get WebGL context.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaalentin/gl-context.git"
+  },
+  "keywords": [
+    "WebGL"
+  ],
+  "author": "vaalentin <vaalentin@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaalentin/gl-context/issues"
+  },
+  "homepage": "https://github.com/vaalentin/gl-context#readme"
+}
+
