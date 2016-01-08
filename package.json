@@ -1,5 +1,5 @@
 {
-  "name": "gl-context",
+  "name": "@vaalentin/gl-context",
   "version": "1.0.1",
   "description": "Get WebGL context.",
   "main": "dist/index.js",
