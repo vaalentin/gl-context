@@ -2,8 +2,8 @@
   "name": "gl-context",
   "version": "1.0.0",
   "description": "Get WebGL context.",
-  "main": "index.js",
   "scripts": {},
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vaalentin/gl-context.git"
