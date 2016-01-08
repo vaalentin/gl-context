@@ -1,6 +1,6 @@
 {
   "name": "gl-context",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get WebGL context.",
   "main": "dist/index.js",
   "scripts": {
