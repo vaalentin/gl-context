@@ -1,7 +1,7 @@
 {
   "name": "@vaalentin/gl-context",
-  "version": "1.0.1",
-  "description": "Get WebGL context.",
+  "version": "1.0.2",
+  "description": "Get the WebGL context from a canvas.",
   "main": "dist/index.js",
   "scripts": {
     "prepublish": "npm run build",
