@@ -10,7 +10,7 @@ export default function getGl(canvas) {
     gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
   }
   catch(err) {
-    console.warn(err);
+    gl = null;
   }
 
   return gl;
