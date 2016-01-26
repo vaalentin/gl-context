@@ -1,18 +1,22 @@
 {
-  "name": "@vaalentin/gl-context",
+  "name": "gl-context",
   "version": "1.0.2",
   "description": "Get the WebGL context from a canvas.",
   "main": "dist/index.js",
   "scripts": {
-    "prepublish": "npm run build",
-    "build": "babel ./src/index.js --out-file dist/index.js --presets=es2015"
+    "test": "browserify test/index.js -t [ babelify --presets [ es2015 ] ] | smokestack -b firefox | tap-spec",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && mkdir dist && browserify src/index.js -t [ babelify --presets [ es2015 ] ] > dist/index.js",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vaalentin/gl-context.git"
   },
   "keywords": [
-    "WebGL"
+    "WebGL",
+    "context",
+    "canvas"
   ],
   "author": "vaalentin <vaalentin@protonmail.com>",
   "license": "MIT",
@@ -21,7 +25,11 @@
   },
   "homepage": "https://github.com/vaalentin/gl-context#readme",
   "devDependencies": {
-    "babel-cli": "^6.4.0",
-    "babel-preset-es2015": "^6.3.13"
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "smokestack": "^3.4.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.4.0"
   }
 }
