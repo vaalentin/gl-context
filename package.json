@@ -1,13 +1,12 @@
 {
   "name": "@vaalentin/gl-context",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Get the WebGL context from a canvas.",
   "main": "dist/index.js",
   "scripts": {
     "test": "browserify test/index.js -t babelify | tape-run | tap-spec",
     "build": "browserify src/index.js -t babelify > dist/index.js",
-    "prepublish": "npm run build",
-    "preinstall": "mkdir dist"
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
