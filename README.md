@@ -1,7 +1,5 @@
 # GL Context
 
-[![Build Status](https://travis-ci.org/vaalentin/gl-context.svg?branch=master)](https://travis-ci.org/vaalentin/gl-context)
-
 Get the WebGL context from a canvas.
 
 ## Installation
