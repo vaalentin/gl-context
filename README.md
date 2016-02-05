@@ -1,10 +1,12 @@
-# @vaalentin/gl-context
+# GL Context
+
+[![Build Status](https://travis-ci.org/vaalentin/gl-context.svg?branch=master)](https://travis-ci.org/vaalentin/gl-context)
 
 Get the WebGL context from a canvas.
 
 ## Installation
 
-```
+```sh
 $ npm install --save @vaalentin/gl-context
 ```
 
@@ -25,8 +27,7 @@ if(gl == null) {
 
 #### `gl = getGl(canvas)`
 
-Returns the `WebGL` context from the `canvas`.
-If it fails, `gl` is `undefined`.
+Returns the `WebGL` context from the `canvas`. If it fails, `gl` is `null`.
 
 ## License
 
